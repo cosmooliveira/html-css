@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:#ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(162, 0, 255);
+        }
+
+        a:hover{
+            color:rgb(255, 208, 0);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(0, 238, 255);
+        }
+
+        .especial::after{
+            content: " link";
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+
+            
+        }
+
+        .especial::before{
+            content: " link";
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UC6ztYIC2KfgIC9Sy3hIy0Tg"class="especial">canal do youtube</a></li>
+        <li><a href="https://pt-br.facebook.com/login/device-based/regular/login/">canal do facebook</a></li>
+        <li><a href="https://www.whatsapp.com/?lang=pt_br">canal do  whatsapp</a></li>
+    </ul>
+</body>
+</html>
